@@ -1,0 +1,58 @@
+{
+  "modSet": {
+    "openwithwhited": false,
+    "OutSet": 0,
+    "SteamPath": null,
+    "IDEAPath": null,
+    "StSCardImagesCreatorPath": null
+  },
+  "Info": {
+    "modid": "",
+    "name": "",
+    "author_list": [
+      ""
+    ],
+    "description": "",
+    "dependencies": [],
+    "version": "0.0.1",
+    "sts_version": ""
+  },
+  "modInfoByWorkShop": {
+    "steamPublishedID": "",
+    "steamTexturePath": "",
+    "title": "",
+    "description": "",
+    "visibility": "private",
+    "changeNote": "",
+    "tags": []
+  },
+  "characterList": [],
+  "cardImage": {
+    "atk_512": "",
+    "skl_512": "",
+    "pow_512": "",
+    "orb_512": "",
+    "atk_1024": "",
+    "skl_1024": "",
+    "pow_1024": "",
+    "orb_1024": "",
+    "EnergyOrb": "",
+    "color": {
+      "R": 200,
+      "G": 200,
+      "B": 200,
+      "A": 255,
+      "IsKnownColor": false,
+      "IsEmpty": false,
+      "IsNamedColor": false,
+      "IsSystemColor": false,
+      "Name": "ffc8c8c8"
+    },
+    "CustomTags": []
+  },
+  "cardList": [],
+  "relicsList": [],
+  "potionList": [],
+  "eventList": [],
+  "powerList": []
+}
