@@ -1,0 +1,8 @@
+{
+  "{ModID}:{ModID}_{PotionID}": {
+    "NAME": "{PotionName}",
+    "DESCRIPTIONS": [
+      "{PotionDescription}"
+    ]
+  }
+}

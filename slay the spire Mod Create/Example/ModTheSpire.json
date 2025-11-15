@@ -1,0 +1,13 @@
+{
+  "modid": "*{ModID}*",
+  "name": "*{ModName}*",
+  "author_list": [
+    "*{ModAuthor}*"
+  ],
+  "description": "*{ModDescription}*",
+  "dependencies": [
+    "*{ModNeeded}*"
+  ],
+  "version": "*{ModVersion}*",
+  "sts_version": "*{ModStsVersion}*"
+}

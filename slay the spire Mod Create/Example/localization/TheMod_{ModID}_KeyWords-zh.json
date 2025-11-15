@@ -1,0 +1,10 @@
+{
+  "{ModID}:{ModID}_{KeyWordID}": [
+    {
+      "NAMES": [
+        "{KeyWordName}"
+      ],
+      "DESCRIPTION": "{KeyWordDescription}"
+    }
+  ]
+}

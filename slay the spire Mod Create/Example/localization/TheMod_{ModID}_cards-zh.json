@@ -1,0 +1,7 @@
+{
+  "{ModID}:{ModID}Card_{CardID}": {
+    "NAME": "{CardName}",
+    "DESCRIPTION": "{CardDescription}",
+    "UPGRADE_DESCRIPTION": "{CardUpgradeDescription}"
+  }
+}

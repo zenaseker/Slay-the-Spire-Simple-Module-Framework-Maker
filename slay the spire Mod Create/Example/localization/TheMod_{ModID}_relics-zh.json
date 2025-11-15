@@ -1,0 +1,9 @@
+{
+  "{ModID}:{ModID}_{RelicsID}": {
+    "NAME": "{RelicsName}",
+    "FLAVOR": "{RelicsFlavor}",
+    "DESCRIPTIONS": [
+      "{RelicsDescription}"
+    ]
+  }
+}

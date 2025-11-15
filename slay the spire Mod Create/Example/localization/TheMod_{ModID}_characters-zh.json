@@ -1,0 +1,11 @@
+{
+  "{ModID}:{CharacterID}": {
+    "NAMES": [
+      "{CharacterID}"
+    ],
+    "TEXT": [
+      "{CharacterText}",
+      "{CharacterTalkToHeart}"
+    ]
+  }
+}

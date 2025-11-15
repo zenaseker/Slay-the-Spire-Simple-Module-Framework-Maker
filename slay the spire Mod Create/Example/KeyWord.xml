@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyWordTo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TextConversions>
+    <Conversion>
+      <Key>ModBase_TheCharacterAdd</Key>
+      <Value>BaseMod.addCharacter(new *{CharacterID}*("*{CharacterID}*"),"img/char/*{Img6}*" ,"img/char/*{Img5}*", ThemodClassEnum.*{ModID}*_CLASS);
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>ModBase_CardAdd</Key>
+      <Value>this.cardsToAdd.add(new *{CardID}*());
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>ModBase_RelicAdd</Key>
+      <Value>BaseMod.addRelicToCustomPool(new *{RelicsID}*(),AbstractCardEnum.*{ModID}*_COLOR);
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>ModBase_ThePotionAdd</Key>
+      <Value>BaseMod.addPotion(*{PotionID}*.class, null, null, null, "*{PotionID}*", ThemodClassEnum.*{ModID}*_CLASS);</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>ModBase_EventAdd</Key>
+      <Value>BaseMod.addEvent((new AddEventParams.Builder("*{EventID}*", *{EventID}*.class))
+                .dungeonID("*{EventID}*")
+                .playerClass(ThemodClassEnum.*{ModID}*_CLASS)
+                .eventType(EventUtils.EventType.ONE_TIME)
+                .create());</Value>
+	</Conversion>
+	
+    <Conversion>
+      <Key>Character_StartCardAdd</Key>
+      <Value>retVal.add("*{StartCardID}*");
+</Value>
+    </Conversion>
+    <Conversion>
+      <Key>Character_StartRelicsAdd</Key>
+      <Value>retVal.add("*{StartRelics}*");
+        UnlockTracker.markRelicAsSeen("*{StartRelics}*");
+</Value>
+    </Conversion>
+    <Conversion>
+      <Key>Character_EnergyImgs</Key>
+      <Value> </Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>Card_TagsAdd</Key>
+      <Value>this.tags.add(*{Tag}*);
+</Value>
+    </Conversion>
+    <Conversion>
+      <Key>Card_UpgradeDes</Key>
+      <Value>this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+initializeDescription();
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>Event_voids</Key>
+      <Value>private void Option{0}()
+	*(
+	screenNum = {0};
+	button1 = {1};
+	button2 = {2};
+	button3 = {3};
+	{4}
+	{5}
+	{6}
+	//代码写在这
+)*
+</Value>
+    </Conversion>
+    <Conversion>
+      <Key>Event_options</Key>
+      <Value>   case {0}:
+	Option{0}();
+	break;
+</Value>
+    </Conversion>
+    <Conversion>
+      <Key>Event_Addoptions</Key>
+      <Value>this.imageEventText.setDialogOption(OPTIONS[{0}]);
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>CustomTag</Key>
+      <Value>@SpireEnum
+    public static AbstractCard.CardTags *{Tag}*;
+</Value>
+    </Conversion>
+	
+    <Conversion>
+      <Key>Power_turnEnd</Key>
+      <Value>public void atEndOfTurn(boolean isPlayer) {
+        addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, ID));
+    }</Value>
+    </Conversion>
+	
+  </TextConversions>
+</KeyWordTo>

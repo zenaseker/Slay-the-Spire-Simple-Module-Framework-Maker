@@ -1,0 +1,8 @@
+{
+  "{ModID}:{ModID}_{PowerID}": {
+    "NAME": "{PowerName}",
+    "DESCRIPTIONS": [
+      "{PowerDescription}"
+    ]
+  }
+}
